@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Estrategia de aprendizaje<br>Texto argumentativo',
+    descripcionCurso:
+      'La estrategia de aprendizaje para el texto argumentativo consiste en dar razones para defender o atacar una opinión o idea, con el fin de convencer o persuadir a alguien sobre determinado punto de vista. La presente guía orientará al aprendiz para elaborar un texto argumentativo, incluyendo su definición, formato para elaborarlo, características, pasos, herramientas disponibles y referentes bibliográficos respectivos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -23,65 +28,55 @@ export default {
         titulo: 'Volver al inicio',
       },
       {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Texto argumentativo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Definición',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Formato para elaborar el texto argumentativo',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Características de un texto argumentativo',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Pasos para elaborar un texto argumentativo',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Herramientas digitales se pueden utilizar para la elaboración de infografías',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Referentes Bibliográficos',
+            hash: 't_1_6',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sort-alpha-down',
-        titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar pdf',
+        download: 'downloads/texto_argumentativo.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -95,33 +90,25 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],
-  glosario: [
-    {
-      termino: '',
-      significado: '',
-    },
-    {
-      termino: '<em></em>',
-      significado: '',
-    },
-  ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Rosado, R. (2012). Argumentación. Preparatoria Abierta Aguascalientes SEP. México: Secretaría de Educación Pública.',
+      link: 'https://www.fao.org/3/ah833s/Ah833s13.htm',
+    },
+    {
+      referencia:
+        'Gómez-Martínez, J. (1992). Cómo hacer una tesis: técnicas y procedimientos de investigación, estudio y escritura. Limusa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Moreno, F., Marthe, N., & Rebolledo, L. A. (2013). Cómo escribir textos académicos según normas internacionales. Ediciones Uninorte.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vásquez, G. (2005). Español con fines académicos: de la comprensión a la producción de textos. Edinumen.',
       link: '',
     },
   ],
@@ -135,9 +122,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -145,9 +132,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Humberto Arias Dïaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Maria Inés Machado López',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -155,19 +147,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Aruzidna Sánchez Alonso',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +162,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
-        },
-        {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },

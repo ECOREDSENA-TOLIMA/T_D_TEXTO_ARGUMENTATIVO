@@ -76,7 +76,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar pdf',
-        download: 'downloads/texto_argumentativo.pdf',
+        download: 'downloads/Texto_argumentativo.pdf',
       },
       {
         icono: 'fas fa-download',

@@ -64,13 +64,13 @@
             img(src='@/assets/curso/temas/tema1/img3.svg', alt='En la figura se representa en la parte superior el título con autores y productores, luego en un nivel inferior se tiene la temática y posteiormente los objetivos, sigue la figura llendo de lo general con la introducción a lo particular con la tesis. Y en la parte inferior se va de lo particular con los argumentos a lo general con las conclusiones.')          
           figure
             img(src='@/assets/curso/temas/tema1/img3_1.svg', alt='En la figura se representa en la parte superior el título con autores y productores, luego en un nivel inferior se tiene la temática y posteiormente los objetivos, sigue la figura llendo de lo general con la introducción a lo particular con la tesis. Y en la parte inferior se va de lo particular con los argumentos a lo general con las conclusiones.')          
-          figcaption Nota: SENA
+          figcaption Nota: Adaptado de Centro de Escritura Javeriano. (s.f). Cómo escribir un ensayo y no morir en el intento.
         .col-lg-12.movil
           figure.mb-3
             img(src='@/assets/curso/temas/tema1/img4.svg', alt='En la figura se representa en la parte superior el título con autores y productores, luego en un nivel inferior se tiene la temática y posteiormente los objetivos, sigue la figura llendo de lo general con la introducción a lo particular con la tesis. Y en la parte inferior se va de lo particular con los argumentos a lo general con las conclusiones.')
           figure
             img(src='@/assets/curso/temas/tema1/img4_1.svg', alt='En la figura se representa en la parte superior el título con autores y productores, luego en un nivel inferior se tiene la temática y posteiormente los objetivos, sigue la figura llendo de lo general con la introducción a lo particular con la tesis. Y en la parte inferior se va de lo particular con los argumentos a lo general con las conclusiones.')
-          figcaption Nota: SENA
+          figcaption Nota: Adaptado de Centro de Escritura Javeriano. (s.f). Cómo escribir un ensayo y no morir en el intento.
 
       
       Separador
@@ -120,21 +120,21 @@
       .row
         .col-xl-12
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 1.5 Herramientas digitales se pueden utilizar para la elaboración de infografías
+        h2.my-5 1.5 Herramientas digitales que se pueden utilizar para la elaboración de texto argumentativo
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h4.text-center.text-black Word
+                h4.text-center.text-black #[i Word]
                 p.text-center(style="color:#000000;") El procesador de texto del paquete Office de Microsoft, es el más usado y tal vez potente en el medio, puede usarse como aplicación nativa o en línea, para escribir textos. 
         .col-lg-4
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema1/img7.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4.mb-3
-                h4.text-center.text-black Corrector Online
+                h4.text-center.text-black Corrector #[i Online]
                 p.text-center(style="color:#000000;") Revisión y mejora de gramática de textos
                 a.anexo.mb-4.mb-lg-0(href="https://www.correctoronline.es/" target="_blank")
                   .anexo__icono
@@ -146,42 +146,14 @@
             img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4.mb-3
-                h4.text-center.text-black Language Tool
-                p.text-center(style="color:#000000;") revisión de ortografía y estilo. 
+                h4.text-center.text-black #[i Language Tool]
+                p.text-center(style="color:#000000;") Revisión de ortografía y estilo. 
                 a.anexo.mb-4.mb-lg-0(href="https://languagetool.org/es" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p(style="color:#000000;") https://languagetool.org/es
   
-      Separador
-      .row
-        .col-xl-12
-      #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2.my-5 1.6 Referentes Bibliográficos
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12 
-          a.anexo.mb-4.mb-lg-0(href="http://www.prepaaguascalientes.sep.gob.mx/prepaabierta/archivos/modulo_13.pdf" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Rosado, R. (2012). Argumentación. Preparatoria Abierta Aguascalientes SEP. México: Secretaría de Educación Pública. 
-          
-          a.anexo.mb-4.mb-lg-0
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Gómez-Martínez, J. (1992). Cómo hacer una tesis: técnicas y procedimientos de investigación, estudio y escritura. Limusa.
-          a.anexo.mb-4.mb-lg-0
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Moreno, F., Marthe, N., & Rebolledo, L. A. (2013). Cómo escribir textos académicos según normas internacionales. Ediciones Uninorte.
-          a.anexo.mb-4.mb-lg-0
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Vásquez, G. (2005). Español con fines académicos: de la comprensión a la producción de textos. Edinumen.
   </template>
 
 <script>

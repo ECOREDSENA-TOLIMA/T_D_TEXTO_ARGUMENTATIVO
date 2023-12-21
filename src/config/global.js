@@ -56,13 +56,8 @@ export default {
           {
             numero: '1.5',
             titulo:
-              'Herramientas digitales se pueden utilizar para la elaboración de infografías',
+              'Herramientas digitales que se pueden utilizar para la elaboración de texto argumentativo',
             hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
-            titulo: 'Referentes Bibliográficos',
-            hash: 't_1_6',
           },
         ],
       },
@@ -98,18 +93,9 @@ export default {
     },
     {
       referencia:
-        'Gómez-Martínez, J. (1992). Cómo hacer una tesis: técnicas y procedimientos de investigación, estudio y escritura. Limusa.',
-      link: '',
-    },
-    {
-      referencia:
-        'Moreno, F., Marthe, N., & Rebolledo, L. A. (2013). Cómo escribir textos académicos según normas internacionales. Ediciones Uninorte.',
-      link: '',
-    },
-    {
-      referencia:
-        'Vásquez, G. (2005). Español con fines académicos: de la comprensión a la producción de textos. Edinumen.',
-      link: '',
+        'Centro de Escritura Javeriano. (s.f). Cómo escribir un ensayo y no morir en el intento.',
+      link:
+        'https://www.javerianacali.edu.co/sites/default/files/2022-06/Co%CC%81mo%20escribir%20una%20resen%CC%83a%20y%20no%20morir%20en%20el%20intento%20_0.pdf ',
     },
   ],
   creditos: [

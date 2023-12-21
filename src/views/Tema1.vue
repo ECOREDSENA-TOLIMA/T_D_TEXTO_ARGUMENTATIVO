@@ -127,14 +127,14 @@
             img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4
-                h4.text-center.text-black #[i Word]
+                h4.text-center.text-black #[i(style="color:#000000;") Word]
                 p.text-center(style="color:#000000;") El procesador de texto del paquete Office de Microsoft, es el más usado y tal vez potente en el medio, puede usarse como aplicación nativa o en línea, para escribir textos. 
         .col-lg-4
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema1/img7.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4.mb-3
-                h4.text-center.text-black Corrector #[i Online]
+                h4.text-center.text-black Corrector #[i(style="color:#000000;") Online]
                 p.text-center(style="color:#000000;") Revisión y mejora de gramática de textos
                 a.anexo.mb-4.mb-lg-0(href="https://www.correctoronline.es/" target="_blank")
                   .anexo__icono
@@ -146,7 +146,7 @@
             img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
             .tarjeta.color-primario.w-100
               .p-4.mb-3
-                h4.text-center.text-black #[i Language Tool]
+                h4.text-center #[i(style="color:#000000;") Language Tool]
                 p.text-center(style="color:#000000;") Revisión de ortografía y estilo. 
                 a.anexo.mb-4.mb-lg-0(href="https://languagetool.org/es" target="_blank")
                   .anexo__icono
